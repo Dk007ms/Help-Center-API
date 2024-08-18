@@ -2,7 +2,7 @@
 
 ### 1. **How can you implement shared functionality across a component tree?**
 
-To implement shared functionality across a component tree, I would use the Context API in React. This allows me to create a context and wrap my components with a Context Provider, which makes the shared data or functions available to all the components within that provider. This way, I can avoid passing props down manually through each level of the component tree, making my code cleaner and easier to maintain.
+To implement shared functionality across a component tree, I would use the Context API in React. This allows me to create a context and wrap my components with a Context Provider, which makes the shared data or functions available to all the components within that provider. This way, I can avoid passing props down manually through each level of the component tree, making my code cleaner and easier to maintain avoiding prop drilling in complex applications.
 
 ### 2. **Why is the `useState` hook appropriate for handling state in a complex component?**
 
